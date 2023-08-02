@@ -1,4 +1,4 @@
-# X011.py - Simple slowloris in Python
+# X011.py - Simple X011 in Python
 
 ## What is X011?
 X011 is basically an HTTP Denial of Service attack that affects threaded servers. It works like this:
