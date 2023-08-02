@@ -1,7 +1,7 @@
-# slowloris.py - Simple slowloris in Python
+# X011.py - Simple slowloris in Python
 
-## What is Slowloris?
-Slowloris is basically an HTTP Denial of Service attack that affects threaded servers. It works like this:
+## What is X011?
+X011 is basically an HTTP Denial of Service attack that affects threaded servers. It works like this:
 
 1. We start making lots of HTTP requests.
 2. We send headers periodically (every ~15 seconds) to keep the connections open.
@@ -15,7 +15,7 @@ If you found this work useful, please cite it as
 
 ```bibtex
 @article{gkbrkslowloris,
-  title = "Slowloris",
+  title = "X011",
   author = "Gokberk Yaltirakli",
   journal = "github.com",
   year = "2015",
@@ -27,8 +27,8 @@ If you found this work useful, please cite it as
 
 You can clone the git repo or install using **pip**. Here's how you run it.
 
-* `sudo pip3 install slowloris`
-* `slowloris example.com`
+* `sudo pip3 install X011`
+* `X011 example.com`
 
 That's all it takes to install and run slowloris.py.
 
@@ -36,7 +36,7 @@ If you want to clone using git instead of pip, here's how you do it.
 
 * `git clone https://github.com/gkbrk/slowloris.git`
 * `cd slowloris`
-* `python3 slowloris.py example.com`
+* `python3 X011.py example.com`
 
 ### SOCKS5 proxy support
 
