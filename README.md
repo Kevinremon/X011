@@ -13,16 +13,6 @@ This exhausts the servers thread pool and the server can't reply to other people
 
 If you found this work useful, please cite it as
 
-```bibtex
-@article{gkbrkslowloris,
-  title = "X011",
-  author = "Gokberk Yaltirakli",
-  journal = "github.com",
-  year = "2015",
-  url = "https://github.com/gkbrk/slowloris"
-}
-```
-
 ## How to install and run?
 
 You can clone the git repo or install using **pip**. Here's how you run it.
@@ -34,8 +24,8 @@ That's all it takes to install and run slowloris.py.
 
 If you want to clone using git instead of pip, here's how you do it.
 
-* `git clone https://github.com/gkbrk/slowloris.git`
-* `cd slowloris`
+* `git clone https://github.com/Kevinremon/X011`
+* `cd X011`
 * `python3 X011.py example.com`
 
 ### SOCKS5 proxy support
